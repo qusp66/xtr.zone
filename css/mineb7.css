@@ -13,14 +13,8 @@ h1{
     font-size:2em;
     margin:.67em 0
 }
-hr{
-    box-sizing:content-box;
-    height:0;
-    overflow:visible
-}pre{
-    font-family:monospace,monospace;
-    font-size:1em
-}
+
+
 a{
     background-color:transparent
 }
@@ -41,10 +35,11 @@ p {
   }
 
 button,input,optgroup,select,textarea{
+    text-align: center;
     font-family:inherit;
     font-size:100%;
     line-height:1.15;
-    margin:0
+    margin:0;
 }
 button,input{
     overflow:visible
@@ -107,7 +102,7 @@ h1 .heading-link,h2 .heading-link,h3 .heading-link,h4 .heading-link,h5 .heading-
     color:#42a5f5; 
     font-weight:inherit;
     text-decoration:none;
-    font-size:80%;
+    font-size:180%;
     visibility:hidden
 }
 h1 .title-link,h2 .title-link,h3 .title-link,h4 .title-link,h5 .title-link,h6 .title-link{
@@ -141,6 +136,7 @@ blockquote{border-left:2px solid #e0e0e0;padding-left:2rem;line-height:2.2rem;fo
 .float-left{float:left}
 .fab{font-weight:400}
 .fas{font-weight:900}
+
 .content{
     flex:1;
     display:flex;
@@ -148,25 +144,45 @@ blockquote{border-left:2px solid #e0e0e0;padding-left:2rem;line-height:2.2rem;fo
     margin-bottom:3.2rem
 }
 
-article details summary{
-    cursor:pointer
-}
-article header{
+.content article header{
     margin-top:6.4rem;
     margin-bottom:3.2rem
 }
-article header h1{
+.content article header h1{
     font-size:4.2rem;
     line-height:4.6rem;
 }
-article footer{
+.content article header button{
+    font-size:4.2rem;
+    line-height:4.6rem;
+    text-align:left; 
+    font-size:4.2rem; 
+    font-weight:600;
+}
+
+.content article footer{
     margin-top:4rem
 }
 article footer .see-also{margin:3.2rem 0}.content 
 article footer .see-also h3{margin:3.2rem 0}.content 
-article p{text-align:justify;text-justify:auto;hyphens:auto;}.content .post .post-title{margin-bottom:.75em}.content .post .post-meta 
-i{text-align:center;width:1.6rem;margin-left:0;margin-right:.5rem}.content .post .post-meta .date .posted-on{margin-left:0;margin-right:1.5rem}.content 
-figure{margin:0;padding:0}.content figcaption p{text-align:center;font-style:italic;font-size:1.6rem;margin:0}
+article p{
+    text-align:justify;
+    text-justify:auto;
+    hyphens:auto;
+}.content .post .post-title{
+    margin-bottom:.75em
+}
+.content .post .post-meta i{
+    text-align:center;
+    width:1.6rem;
+    margin-left:0;
+    margin-right:.5rem
+}
+.content .post .post-meta .date .posted-on{
+    margin-left:0;
+    margin-right:1.5rem
+}
+
 .avatar img{
     width:80%;
     height:auto;
@@ -174,7 +190,8 @@ figure{margin:0;padding:0}.content figcaption p{text-align:center;font-style:ita
     border-color: #000;
     border-width: 1px;
     border-style: solid;
-    padding: 0.5em;}
+    padding: 0.5em;
+}
 .badges img {
     width:100%;
     height:auto;
@@ -182,7 +199,8 @@ figure{margin:0;padding:0}.content figcaption p{text-align:center;font-style:ita
     border-color: #000;
     border-width: 1px;
     border-style: solid;
-    padding: 0.2em;}
+    padding: 0.2em;
+}
 .list ul{margin:3.2rem 0;list-style:none;padding:0}
 .list ul li{font-size:1.8rem}@media only screen and (max-width:768px){
     .list ul li{margin:1.6rem 0}}
@@ -304,11 +322,14 @@ figure{margin:0;padding:0}.content figcaption p{text-align:center;font-style:ita
     text-align:center;
     font-size:1.2rem;
     line-height:2rem;
-    margin-bottom:1rem}
+    margin-bottom:1rem
+}
 .footer a{
     color:#a5bac8
 }
-.float-container{bottom:2rem;right:2rem;z-index:100;position:fixed;font-size:1.6em}
+.float-container{
+    bottom:2rem;right:2rem;z-index:100;position:fixed;font-size:1.6em
+}
 .float-container a{position:relative;display:inline-block;width:3rem;height:3rem;font-size:2rem;color:#000;background-color:#e0e0e0;border-radius:.2rem;opacity:50%;transition:all .25s ease-in}
 .float-container a:hover,.float-container a:focus{
     color:#a5bac8;
@@ -321,24 +342,25 @@ figure{margin:0;padding:0}.content figcaption p{text-align:center;font-style:ita
   }
 
 .collapsible {
-    font-size:1.6em;
-    cursor: pointer;
-    padding: 18px;
-    background-color: #212121;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: inherit;
     width: 100%;
-    color: white;
+    color: inherit;
     border: none;
     outline: none;
-    margin: 0;
   }
   
+  
   .active, .collapsible:hover {
-    background-color: #222222;
+    background-color:inherit;
   }
   
   .collapsible:after {
     content: '\002B';
-    color: white;
+    color: inherit;
     font-weight: bold;
     float: right;
     margin-left: 5px;
