@@ -130,12 +130,9 @@ blockquote{border-left:2px solid #e0e0e0;padding-left:2rem;line-height:2.2rem;fo
     padding-left:2rem;
     padding-right:2rem
 }
-.fab{font-weight:400}
-.fas{font-weight:700}
 .float-right{float:right}
 .float-left{float:left}
-.fab{font-weight:400}
-.fas{font-weight:900}
+
 
 .content{
     flex:1;
@@ -145,8 +142,8 @@ blockquote{border-left:2px solid #e0e0e0;padding-left:2rem;line-height:2.2rem;fo
 }
 
 .content article header{
-    margin-top:6.4rem;
-    margin-bottom:3.2rem
+    margin-top:2.4rem;
+    margin-bottom:1.2rem
 }
 .content article header h1{
     font-size:4.2rem;
@@ -215,8 +212,17 @@ article p{
 @media only screen and (min-width:768.1px){
     .list ul:not(.pagination) li{display:flex}}
     .centered{display:flex;align-items:center;justify-content:center}
-    .centered .about{text-align:center}
-    .centered .about h1{margin-top:2rem;margin-bottom:.5rem}.centered .about h2{margin-top:1rem;margin-bottom:.5rem;font-size:2.4rem}
+    .centered .about{
+        text-align:center
+    }
+    .centered .about h1{
+        font-size:5.8rem;
+        margin-top:2rem;
+        margin-bottom:1.5rem
+    }
+    .centered .about h2{
+        margin-top:1rem;margin-bottom:.5rem;font-size:2.4rem
+    }
 @media only screen and (max-width:768px){.centered .about h2{font-size:2rem}}.centered .about ul{list-style:none;margin:3rem 0 1rem;padding:0}
 .centered .about ul li{display:inline-block;position:relative}
 .centered .about ul li a{
