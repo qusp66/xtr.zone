@@ -73,7 +73,7 @@ html{
 body{
     color:black;
     background-color:#fafafa;
-    font-family:-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen-Sans,Ubuntu,Cantarell,helvetica neue,Helvetica,sans-serif;
+    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-size:1.8em;
     font-weight:400;line-height:1.8em
 }
@@ -91,7 +91,7 @@ p{
     margin:2rem 0
 }
 h1,h2,h3,h4,h5,h6{
-    font-family:-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen-Sans,Ubuntu,Cantarell,helvetica neue,Helvetica,sans-serif;
+    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-weight:600;
     color:#000;
 }
@@ -114,7 +114,12 @@ h1{
     font-size:3.2rem;
     line-height:3.6rem
 }
-pre{display:block;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;font-size:1.6rem;font-weight:400;line-height:2.6rem;overflow-x:auto;margin:0}
+pre{display:block;
+    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size:1.6rem;
+    font-weight:400;
+    line-height:2.6rem;
+    overflow-x:auto;margin:0}
 blockquote{border-left:2px solid #e0e0e0;padding-left:2rem;line-height:2.2rem;font-weight:400;font-style:italic}
 .preload-transitions *{-webkit-transition:none!important;-moz-transition:none!important;-ms-transition:none!important;-o-transition:none!important;transition:none!important}
 .wrapper{
@@ -206,8 +211,10 @@ article p{
     .list ul li .date{display:block;text-align:left}}
     .list ul li .title{
         font-size:1.8rem;
-        flex:2;color:#212121;
-        font-family:-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen-Sans,Ubuntu,Cantarell,helvetica neue,Helvetica,sans-serif;font-weight:700}
+        flex:2;
+        color:#212121;
+        font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+        font-weight:700}
         .list ul li .title:hover,.list ul li .title:focus{color:#a5bac8}
 @media only screen and (min-width:768.1px){
     .list ul:not(.pagination) li{display:flex}}
@@ -246,7 +253,7 @@ article p{
 .navigation a,.navigation span{
     display:inline;
     font-size:1.7rem;
-    font-family:-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen-Sans,Ubuntu,Cantarell,helvetica neue,Helvetica,sans-serif;
+    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-weight:600;
     line-height:6rem;
 }
@@ -319,10 +326,30 @@ article p{
     }
 }
 .navigation .menu-button i:hover,.navigation .menu-button i:focus{color:#000}
-.navigation i{color:#212121;cursor:pointer}.navigation i:hover,.navigation i:focus{color:#a5bac8}
-.pagination{margin-top:6rem;text-align:center;font-family:-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen-Sans,Ubuntu,Cantarell,helvetica neue,Helvetica,sans-serif}
-.pagination li{display:inline;text-align:center;font-weight:700}.pagination li span{margin:0;text-align:center;width:3.2rem}
-.pagination li a{font-weight:300}.pagination li a span{margin:0;text-align:center;width:3.2rem}
+.navigation i{
+    color:#212121;
+    cursor:pointer}.navigation i:hover,.navigation i:focus{
+        color:#a5bac8
+    }
+.pagination{
+    margin-top:6rem;text-align:center;
+    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif
+}
+.pagination li{
+    display:inline;
+    text-align:center;
+    font-weight:700}.pagination li span{
+        margin:0;
+        text-align:center;
+        width:3.2rem
+    }
+.pagination li a{
+    font-weight:300
+}
+.pagination li a span{
+    margin:0;
+    text-align:center;
+    width:3.2rem}
 .footer{
     width:100%;
     text-align:center;
