@@ -9,23 +9,18 @@ body{
 main{
     display:block
 }
-h1{
-    font-size:2em;
-    margin:.67em 0
+
+h2{
+    font-size: 2em;
 }
-
-
 a{
     background-color:transparent
 }
-abbr[title]{
-    border-bottom:none;
-    text-decoration:none;
-    text-decoration:none dotted
-}
+
 b,strong{
     font-weight:bolder
 }
+
 small{
     font-size:80%
 }
@@ -56,7 +51,6 @@ button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focu
 button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{
     outline:1px dotted ButtonText
 }
-
 
 .sr-only-focusable:active,.sr-only-focusable:focus{
     position:static;
@@ -90,30 +84,7 @@ a:focus,a:hover{
 p{
     margin:2rem 0
 }
-h1,h2,h3,h4,h5,h6{
-    font-family:-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen-Sans,Ubuntu,Cantarell,helvetica neue,Helvetica,sans-serif;
-    font-weight:600;
-    color:#000;
-}
-h1:hover .heading-link,h2:hover .heading-link,h3:hover .heading-link,h4:hover .heading-link,h5:hover .heading-link,h6:hover .heading-link{
-    visibility:visible
-}
-h1 .heading-link,h2 .heading-link,h3 .heading-link,h4 .heading-link,h5 .heading-link,h6 .heading-link{
-    color:#42a5f5; 
-    font-weight:inherit;
-    text-decoration:none;
-    font-size:180%;
-    visibility:hidden
-}
-h1 .title-link,h2 .title-link,h3 .title-link,h4 .title-link,h5 .title-link,h6 .title-link{
-    color:inherit;
-    font-weight:inherit;
-    text-decoration:none
-}
-h1{
-    font-size:3.2rem;
-    line-height:3.6rem
-}
+
 pre{display:block;
     font-family:-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen-Sans,Ubuntu,Cantarell,helvetica neue,Helvetica,sans-serif;
     font-size:1.6rem;
@@ -151,7 +122,6 @@ blockquote{border-left:2px solid #e0e0e0;padding-left:2rem;line-height:2.2rem;fo
     margin-bottom:1.2rem
 }
 .content article header h1{
-    font-size:4.2rem;
     line-height:4.6rem;
 }
 .content article header button{
@@ -206,7 +176,13 @@ article p{
 .list ul{margin:3.2rem 0;list-style:none;padding:0}
 .list ul li{font-size:1.8rem}@media only screen and (max-width:768px){
     .list ul li{margin:1.6rem 0}}
-.list ul li .date{display:inline-block;flex:1;width:20rem;text-align:right;margin-right:3rem}
+.list ul li .date{
+    display:inline-block;
+    flex:1;
+    width:20rem;
+    text-align:right;
+    margin-right:3rem
+}
 @media only screen and (max-width:768px){
     .list ul li .date{display:block;text-align:left}}
     .list ul li .title{
@@ -215,7 +191,9 @@ article p{
         color:#212121;
         font-family:-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen-Sans,Ubuntu,Cantarell,helvetica neue,Helvetica,sans-serif;
         font-weight:700}
-        .list ul li .title:hover,.list ul li .title:focus{color:#a5bac8}
+        .list ul li .title:hover,.list ul li .title:focus{color:#a5bac8
+        }
+     
 @media only screen and (min-width:768.1px){
     .list ul:not(.pagination) li{display:flex}}
     .centered{display:flex;align-items:center;justify-content:center}
@@ -223,30 +201,41 @@ article p{
         text-align:center
     }
     .centered .about h1{
-        font-size:5.8rem;
+        font-size:4em;
         margin-top:2rem;
-        margin-bottom:1.5rem
+        margin-bottom:3rem
     }
-    .centered .about h2{
-        margin-top:1rem;margin-bottom:.5rem;font-size:2.4rem
+
+
+ 
+@media only screen and (
+    max-width:577px){
+        .centered 
+        .about h1{
+            font-size:4rem
+        }
+        .about h2{
+            font-size:3rem
+        }
     }
-@media only screen and (max-width:768px){.centered .about h2{font-size:2rem}}.centered .about ul{list-style:none;margin:3rem 0 1rem;padding:0}
+    .centered 
+    .about ul{
+        list-style:none;
+        margin:3rem 0 1rem;
+        padding:0
+    }
 .centered .about ul li{display:inline-block;position:relative}
 .centered .about ul li a{
     color:#212121;text-transform:uppercase;margin-left:1rem;margin-right:1rem;font-size:1.6rem}
     .centered .about ul li a:hover,.centered .about ul li a:focus{
     color:#a5bac8
 }
+
 @media only screen and (max-width:768px){
     .centered .about ul li a{font-size:1.4rem}}
     .centered .about ul li a i{font-size:3.2rem}
-.centered .error{text-align:center}
-.centered .error h1{margin-top:2rem;margin-bottom:.5rem;font-size:4.6rem}
-@media only screen and (max-width:768px){
-    .centered .error h1{font-size:3.2rem}}
-.centered .error h2{margin-top:2rem;margin-bottom:3.2rem;font-size:3.2rem}
-@media only screen and (max-width:768px){
-    .centered .error h2{font-size:2.8rem}}
+
+
 .navigation{
     height:6rem;
     width:100%}
