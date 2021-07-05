@@ -194,7 +194,7 @@ article p{
         .list ul li .title:hover,.list ul li .title:focus{color:#a5bac8
         }
      
-@media only screen and (min-width:768.1px){
+@media only screen and (max-width:768.1px){
     .list ul:not(.pagination) li{display:flex}}
     .centered{display:flex;align-items:center;justify-content:center}
     .centered .about{
@@ -205,14 +205,12 @@ article p{
         margin-top:2rem;
         margin-bottom:3rem
     }
-
-
  
 @media only screen and (
-    max-width:577px){
+    max-width:763px){
         .centered 
         .about h1{
-            font-size:4rem
+            font-size:3.5rem
         }
         .about h2{
             font-size:3rem
