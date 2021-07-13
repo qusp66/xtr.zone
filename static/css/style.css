@@ -205,6 +205,11 @@ article p{
         margin-top:2rem;
         margin-bottom:3rem
     }
+    .centered .about h2{
+        font-size:2em;
+        margin-top:2rem;
+        margin-bottom:2rem
+    }
  
 @media only screen and (
     max-width:763px){
@@ -213,7 +218,7 @@ article p{
             font-size:3.5rem
         }
         .about h2{
-            font-size:3rem
+            font-size:2.5rem
         }
     }
     .centered 

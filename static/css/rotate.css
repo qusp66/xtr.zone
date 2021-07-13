@@ -57,11 +57,9 @@ http://www.andreagalanti.it
 
 /* small icons */
 .audio-container {
-	flex: 1 1 auto;     /* 1 */
-	position: relative;
 	min-width: 1px;
 	max-width: 200px;
-	margin: 0 auto;
+	margin: 0;
 	z-index: 1;
 	width: 100%;   
 	border: 1px solid #808080;
